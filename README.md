@@ -15,8 +15,8 @@ Lambda handler detects the face using face recognition libraries and return the 
 ![Arch Image](https://github.com/Dhairya-Dudhatra/FaceRecognition-Lambda-S3/blob/main/arch.png)
 
 ## S3 Bucket Names
-Input Bucket name -  'input-bucket-project2'
-Output Bucket name - 'output-bucket-project2'
+- Input Bucket name -  'input-bucket-project2'
+- Output Bucket name - 'output-bucket-project2'
 
 ## DynamoDB Table Name
-Table Name - 'People_data'
+- Table Name - 'People_data'
