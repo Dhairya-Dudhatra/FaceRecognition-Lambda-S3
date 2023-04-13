@@ -8,7 +8,7 @@
 ## Project Understandings
 We tried to implement a face recognition application using AWS Lambda and AWS S3 and S3 event notification.
 From the workload generator users upload videos in the S3 and event notifications trigger the lambda function which was created from the docker image stored in the AWS ECR.
-Lambda handler detects the face using face recognition libraries and return the result in another S3 bucket. 
+Lambda handler detects the face using face recognition libraries and checks dynamoDB table if there is a face already in the database and if it does then it returns the data about person in another S3 bucket. 
 
 
 ## Architecture
